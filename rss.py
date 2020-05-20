@@ -99,5 +99,5 @@ def article_details_ordered(idx):
     
 if __name__ == '__main__':
     app.debug=True
-    app.run()
+    app.run(port=8081)
  
