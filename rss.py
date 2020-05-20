@@ -98,5 +98,6 @@ def article_details_ordered(idx):
     return render_template("rss_result_details.html",result = sorted_t,data = articles[idx], order = 1, i = idx)
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.debug=True
+    app.run()
  
